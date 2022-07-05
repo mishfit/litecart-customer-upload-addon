@@ -14,7 +14,8 @@
 
 2. Upload the contents of the folder public_html/* to the corresponding path of your LiteCart installation.
 
-3. Go to Admin -> Catalog -> Edit Product and add allowed domains (coma separated).
+3. Go to Admin -> Catalog -> Attributes and Create New Group. Name the option Customer File Upload
+4. Use this option in the product you want the upload file input to appear.
 
 ________________________________________________________________________
 
@@ -30,6 +31,3 @@ The addon supports a maximum of 4 uploaded files for each product.
 
 The addon supports file of a maximum size of 5mb.
 
-In the admin section, setup exactly this option:
-catalog/Option Groups name option: Custom Print Image (see option.jpg)
-and use this option in the product you want the upload file to appear.
